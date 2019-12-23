@@ -1,0 +1,176 @@
+html, body {
+	background-color: black;
+	display: inline-block;
+	margin: 0;
+  text-align: center;
+	overflow: hidden;
+}
+
+#car {
+	display: grid;
+}
+
+#car > * {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+#car-title {
+	z-index: 1;
+	padding-left: 6.5em;
+	width: 7.5em;
+	text-align: center;
+}
+
+#car-title > h1 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	color: white;
+}
+
+#car-title > h2 {
+	font-size: .8em;
+	background-color: white;
+	border-radius: .8em;
+	padding: .5em;
+	color: black;
+}
+
+#car-backarrow {
+	margin-left: -.6em;
+	width: 2.2em;
+	height: 2.2em;
+	padding-top: .3em;
+}
+
+#car-defroster {
+	width: 2.2em;
+	height: 2.2em;
+	padding-top: .3em;
+	padding-left: 15.7em;
+}
+
+#car-body {
+	width: 20em;
+	height: 37.5em;
+}
+
+#car-interior, #car-interiorheat {
+	width: 14em;
+	height: 31.4em;
+	padding-top: 3.2em;
+	padding-left: 3em;
+	
+}
+
+#car-arrows {
+	padding-top: 8.5em;
+	padding-left: 3.7em;
+	width: 12.7em;
+	height: 4.4em;
+}
+
+#car-fl-seat {
+	padding-top: 13.5em;
+	padding-left: 6em;
+	width: 1.3em;
+	height:1.3em;
+}
+
+#car-fr-seat {
+	padding-top: 13.5em;
+	padding-left: 12.7em;
+	width: 1.3em;
+	height:1.3em;
+}
+
+#car-bl-seat {
+	padding-top: 22em;
+	padding-left: 6em;
+	width: 1.3em;
+	height:1.3em;
+}
+
+#car-bc-seat {
+	padding-top: 22em;
+	padding-left: 9.4em;
+	width: 1.3em;
+	height:1.3em;
+}
+
+#car-br-seat {
+	padding-top: 22em;
+	padding-left: 12.7em;
+	width: 1.3em;
+	height:1.3em;
+}
+
+#car-setings {
+	display: flex;
+	justify-content: center;
+	margin-top: 34em;
+	margin-left: 4.1em;
+	width: 12em;
+	height:3.3em;
+}
+
+#car-setings-down {
+	margin-left: .5em;
+	width: 3em;
+	height:2.5em;
+}
+
+#car-setings-up {
+	margin-right: .5em;
+	width: 3em;
+	height:2.5em;
+}
+
+#car-setings-temp {
+	margin: 0em;
+	font-size: 3em;
+	margin-top: -.1em;
+	color: white;
+}
+
+#setings {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-content: space-between;
+	align-items: center;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-top: gray .1em solid;
+	grid-row: 2;
+}
+
+#setings-power {
+	display: inline-block;
+	border: white .1em solid;
+	border-radius: .5em;
+	background-color: transparent;
+	color: white;
+	width: 9em;
+	height:3.5em;
+	margin-right: .6em;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	word-spacing: .2em;
+}
+
+#setings-heat {
+	display: inline-block;
+	border: white .1em solid;
+	border-radius: .5em;
+	width: 2em;
+	height:2em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: .5em;
+	padding-top: .9em;
+	margin-left: .6em;
+
+}

@@ -1,0 +1,36 @@
+html, body {
+
+	background: radial-gradient(circle, rgba(143,143,143,1) 0%, rgba(0,0,0,1) 100%);
+	display: inline-block;
+	margin: auto;
+  text-align: center;
+	overflow: hidden;
+}
+
+#content {
+	margin-top: 20em;
+	display: grid;
+	grid-template-columns: .35em 5em auto;
+	grid-template-rows: .5em .55em .1em .1em auto;
+}
+
+.body {
+	grid-column: 1 / 6;
+	grid-row: 1 / 6;
+
+}
+
+.door.left.front {
+	grid-column: 2;
+	grid-row: 2;
+}
+
+.door.left.front {
+
+}
+
+.wheels {
+	grid-column: 2;
+	grid-row: 2;
+
+}
